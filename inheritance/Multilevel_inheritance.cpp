@@ -15,9 +15,19 @@ public:
     }
         
 };
+
+class EngineeringStudent:public student{
+public:
+    void code(){
+        cout<<"I am engineering student"<<endl;
+    }
+        
+};
+
 int main(){
-    student s;
-    s.print();
-    s.show();
+    EngineeringStudent e;
+    e.print();
+    e.show();
+    e.code();
     return 0;
 }
