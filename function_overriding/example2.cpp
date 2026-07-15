@@ -17,8 +17,8 @@ public:
 
 int main() {
     
-    Animal *ptr = new Dog();
-    //this decision is made at compile time
+    Animal *ptr = new Dog(); //base class pointer
+    //sound fun this decision is made at compile time
     ptr->sound();//output:Animal here we make object of dog but get output from animal class+
     
     Dog *p1=new Dog();

@@ -18,7 +18,7 @@ public:
 int main() {
     
     Animal *ptr = new Dog(); //base-class pointer reference
-    //decision taken at run time program checks ptr actuall y point to dog object
+    //sound fun decision taken at run time program checks ptr actually point to dog object
     ptr->sound();//output:Dog
     Dog *p1=new Dog();
     p1->sound(); //output:Dog
